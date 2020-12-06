@@ -10,7 +10,15 @@ export default function MainLayout({ children }) {
         <meta name="description" content={config.siteDescription} />
         <html lang="en" />
       </Helmet>
-      {children}
+
+      <section className="wrapper">
+        <a href="/">
+          <figure>
+            <img src="/logos/logo.svg" alt="Javascript Fashion" />
+          </figure>
+        </a>
+        {children}
+      </section>
     </div>
   );
 }
