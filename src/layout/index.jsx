@@ -5,7 +5,7 @@ import "./index.css";
 
 export default function MainLayout({ children }) {
   return (
-    <div className="layout-container">
+    <div className="layout-container scroll">
       <Helmet>
         <meta name="description" content={config.siteDescription} />
         <html lang="en" />
