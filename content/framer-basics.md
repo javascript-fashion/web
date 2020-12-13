@@ -3,6 +3,7 @@ title: "What's Unique about Framer"
 cover: "8.jpg"
 date: "2020-11-01"
 category: "tech"
+slug: "framer-basics"
 tags:
     - framer
     - react
