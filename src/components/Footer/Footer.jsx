@@ -14,13 +14,10 @@ function Footer({ config }) {
       <UserLinks config={config} labeled />
       <div className="notice-container">
         <p>{copyright}</p>
-
+        <br />
         <Link to={url}>
           <button type="button">Subscribe</button>
         </Link>
-        <p>
-          <a href="https://javascript.fashion">jsf</a> © 2020.
-        </p>
       </div>
     </footer>
   );

@@ -29,13 +29,13 @@ body {
 }
  
 .scroll::-webkit-scrollbar-thumb {
-  background: #7FFFD0; 
-  border-radius: 20px;
+  background: #0045FF; 
+  border-radius: 10px;
 }
 
 .scroll::-webkit-scrollbar-track {
-  background: #0045FF; 
-  border-radius: 20px;
+  background: #7FFFD0; 
+  border-radius: 10px;
 }
 
 #___gatsby #gatsby-focus-wrapper {
@@ -44,14 +44,14 @@ body {
 }
 
 .layout-container {
-  min-height: 10vh;
+  min-height: 100vh;
   min-width: 100vw;
   display: flex;
-  padding: 20px;
 }
 
 .wrapper{
   max-width: 1111px;
+  width:90vw;
   margin: 0 auto;
 }
 
@@ -62,4 +62,15 @@ a, a:hover{
 
 p{
   margin-top: 2rem
+}
+
+button{
+  border: none;
+  line-height: 1.2rem;
+  font-size: 1rem;
+  background-color: #0045FF;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin-right: 0.2rem;
 }

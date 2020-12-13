@@ -5,7 +5,7 @@ const config = {
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://javascript.fashion", // Domain of your website without pathPrefix.
   pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
-  siteDescription: "A GatsbyJS starter with Advanced design in mind.", // Website description used for RSS feeds/meta description tag.
+  siteDescription: "News for the Javascript Universe", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssTitle: "Javascript Fashion RSS feed", // Title of the RSS feed
   siteFBAppID: "", // FB Application ID for using app insights
@@ -15,9 +15,9 @@ const config = {
   dateFormat: "DD/MM/YYYY", // Date format for display.
   postsPerPage: 4, // Amount of posts displayed per listing page. Set to zero to disable paging. See the "Pagination" section.
   userName: "Mehmet Kose", // Username to display in the author segment.
-  userEmail: "mehmetkosedev@gmail.com", // Email used for RSS feed's author segment
-  userTwitter: "mehmetkose", // Optionally renders "Follow Me" in the UserInfo segment.
-  userLocation: "Antalya, Earth", // User location to display in the author segment.
+  userEmail: "javascript.fashion@gmail.com", // Email used for RSS feed's author segment
+  userTwitter: "jsdotfashion", // Optionally renders "Follow Me" in the UserInfo segment.
+  userLocation: "Dublin, Ireland", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
   userDescription:
     "Frontend Developer", // User description to display in the author segment.
@@ -25,23 +25,23 @@ const config = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/mehmetkose",
+      url: "https://github.com/javascript-fashion",
       iconClassName: "fa fa-github",
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/mehmetkose",
+      url: "https://twitter.com/jsdotfashion",
       iconClassName: "fa fa-twitter",
     },
     {
       label: "Email",
-      url: "mailto:mehmetkose@gmail.com",
+      url: "mailto:javascript.fashion@gmail.com",
       iconClassName: "fa fa-envelope",
     },
   ],
-  copyright: "Copyright © 2019. Advanced User", // Copyright string for the footer of the website and RSS feed.
-  themeColor: "#c62828", // Used for setting manifest and progress theme colors.
-  backgroundColor: "#e0e0e0", // Used for setting manifest background color.
+  copyright: "Copyright © 2020. Javascript.fashion", // Copyright string for the footer of the website and RSS feed.
+  themeColor: "#7FFFD0", // Used for setting manifest and progress theme colors.
+  backgroundColor: "#7FFFD0", // Used for setting manifest background color.
 };
 
 // Validate
