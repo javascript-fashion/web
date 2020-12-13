@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import UserInfo from "../components/UserInfo/UserInfo";
-import Disqus from "../components/Disqus/Disqus";
+// import Disqus from "../components/Disqus/Disqus";
 import PostTags from "../components/PostTags/PostTags";
 import SocialLinks from "../components/SocialLinks/SocialLinks";
 import SEO from "../components/SEO/SEO";
@@ -36,7 +36,7 @@ export default function PostTemplate({ data, pageContext }) {
             <SocialLinks postPath={slug} postNode={postNode} />
           </div>
           <UserInfo config={config} />
-          <Disqus postNode={postNode} />
+          {/* <Disqus postNode={postNode} /> */}
           <Footer config={config} />
         </div>
       </div>
