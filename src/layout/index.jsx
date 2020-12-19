@@ -5,13 +5,13 @@ import "./index.css";
 
 export default function MainLayout({ children }) {
   return (
-    <div className="layout-container scroll">
+    <>
       <Helmet>
         <meta name="description" content={config.siteDescription} />
         <html lang="en" />
       </Helmet>
 
-      <section className="wrapper">
+      <section className="wrapper scroll">
         <a href="/">
           <figure>
             <img src="/logos/logo.svg" alt="Javascript Fashion" />
@@ -19,6 +19,6 @@ export default function MainLayout({ children }) {
         </a>
         {children}
       </section>
-    </div>
+    </>
   );
 }

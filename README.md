@@ -17,21 +17,6 @@
     <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
-<div align="center">
-    <a href="https://codeclimate.com/github/mehmetkose/gatsby-advanced-starter">
-      <img src="https://codeclimate.com/github/mehmetkose/gatsby-advanced-starter/badges/gpa.svg" alt="Logo" />
-    </a>
-    <a href='https://codeclimate.com/github/mehmetkose/gatsby-advanced-starter'>
-      <img src="https://codeclimate.com/github/mehmetkose/gatsby-advanced-starter/badges/issue_count.svg" alt="Logo" />
-    </a>
-    <a href='https://www.codacy.com/app/mehmetkose/gatsby-advanced-starter?utm_source=github.com&utm_medium=referral&utm_content=mehmetkose/gatsby-advanced-starter&utm_campaign=Badge_Grade'>
-      <img src="https://api.codacy.com/project/badge/Grade/990fb54ea8094f2aa0ed77f14e859820" alt="Logo" />
-    </a>
-    <a href='https://github.com/prettier/prettier'>
-      <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Logo" />
-    </a>
-</div>
-
 # Javascript Fashion
 
 A starter skeleton with advanced features for [Gatsby](https://github.com/gatsbyjs/gatsby/).
@@ -114,7 +99,6 @@ If you are interested in a foundation for building ultra-fast websites, you can 
   - write-good for linting English prose
   - gh-pages for deploying to GitHub pages
   - [Netlify](https://www.netlify.com/) deploy configuration
-  - [CodeClimate](https://codeclimate.com/) configuration file and badge
 
 NOTE: Feel free to check out [Gatsby Material Starter](https://github.com/mehmetkose/gatsby-material-starter) if you are interested in a more opinionated starter with Material Design in mind.
 

@@ -21,7 +21,6 @@ function Landing({ data }) {
   );
 }
 
-export default Landing;
 
 /* eslint no-undef: "off" */
 export const pageQuery = graphql`
@@ -46,3 +45,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Landing;
